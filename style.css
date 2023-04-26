@@ -1,0 +1,44 @@
+@import url("https://fonts.google.com/specimen/Outfit");
+
+body{
+  background-color: hsl(212,45%, 89%);
+  font-size: 15px;
+  font-weight: 400,700;
+  font-family: 'Outfit';
+  
+
+  
+ 
+}
+img{
+  border-radius: 20px;
+}
+
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 180px;
+ 
+ 
+  width: 340px;
+  height: 500px;
+  background: white;
+ 
+  border-radius: 20px;
+  border-top-right-radius: 20px;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ }
+
+ .container{
+
+  background: white;
+ 
+  border-radius: 20px;
+  border-top-right-radius: 30px;
+  
+
+ }
+p{
+  opacity: 0.6;
+}
